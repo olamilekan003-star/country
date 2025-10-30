@@ -16,8 +16,8 @@ function App() {
           backgroundColor: darkMode ? "var(--bg-dark)" : "var(--bg-light)",
           color: darkMode ? "var(--text-dark)" : "var(--text-light)",
         }}
-      >
-        {/* Navbar */}
+      > 
+
         <nav
           style={{
             backgroundColor: darkMode ? "var(--element-dark)" : "var(--element-light)",
@@ -44,8 +44,8 @@ function App() {
             {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
           </button>
         </nav>
+        
 
-        {/* Routes */}
         <Routes>
           <Route path="/" element={<CountriesList />} />
           <Route path="/country/:name" element={<CountryDetail />} />
