@@ -1,0 +1,91 @@
+.country-detail-page {
+    padding: 2rem;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1.2rem;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #ddd;
+  }
+  
+  .country-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .country-flag {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .country-flag:hover {
+    transform: scale(1.03);
+  }
+  
+  .country-info {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .country-name {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .country-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .country-col p {
+    margin: 0.3rem 0;
+  }
+  
+  .borders-section {
+    margin-top: 2rem;
+  }
+  
+  .borders-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .border-link {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .border-link:hover {
+    background-color: #eee;
+    transform: translateY(-2px);
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
