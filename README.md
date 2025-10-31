@@ -62,7 +62,8 @@ Build for production:
 
 npm run build
 
-(<img width="1436" height="809" alt="Screenshot 2025-10-30 at 15 47 55" src="https://github.com/user-attachments/assets/6361bab8-5385-42dd-a636-57815b5cc26d" />)
+[HOME PAGE](<img width="1436" height="809" alt="Screenshot 2025-10-30 at 15 47 55" src="https://github.com/user-attachments/assets/6361bab8-5385-42dd-a636-57815b5cc26d" />)
+[COUNTRIES DETAIL](<img width="1440" height="807" alt="Screenshot 2025-10-31 at 06 11 55" src="https://github.com/user-attachments/assets/6ae083f1-e1f0-4b80-9b81-772002af49c9" />)
 
 https://github.com/olamilekan003-star/country.git
 
